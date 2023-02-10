@@ -100,4 +100,7 @@ switch (choice) {
             default:
                 alert('Wrong choice! Bye!!1')
         }
+    default:
+        alert('Wrong choice! Bye!!1')
 }
+location.reload()
