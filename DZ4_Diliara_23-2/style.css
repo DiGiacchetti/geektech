@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    color: #6b8db0;
+    margin: 20px;
+}
+p {
+    font-size: 80px;
+    color: #505050;
+}
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.button {
+    background-color: #a9cbef;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
